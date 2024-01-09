@@ -58,7 +58,7 @@ function updateColors() {
 updateColors(currentIndex);
 
 // Set the initial image
-document.getElementById("carouselImage").src = "../src/images/" + images[currentIndex];
+document.getElementById("carouselImage").src = "/src/images/" + images[currentIndex];
 
 // Image is opacity 0 and text is translated off screen by default
 // Add the loaded class to the image and text to animate them in
