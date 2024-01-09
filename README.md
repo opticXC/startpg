@@ -1,3 +1,0 @@
-### Preview:
-
-![img](preview.gif)
