@@ -120,3 +120,40 @@ a:hover {
   color: var(--hover-color);
   font-style: italic;
 }
+
+#searchBar {
+  width: 300px;
+  height: 20px;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.2s ease-out;
+}
+
+#searchBar:focus {
+  border-color: var(--accent-color-2);
+}
+
+/* Added style for search button */
+
+#searchButton {
+  width: 40px;
+  height: 30px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+#searchButton:hover {
+  background-color: var(--accent-color-2);
+  color: var(--hover-color);
+}
+
+/* END: Added style for search button */
